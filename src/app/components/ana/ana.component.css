@@ -1,0 +1,26 @@
+.Menu-Alani{
+    margin-top: 1%;
+    margin-left: 15%;
+    width: 70%;
+    height: 0.5in;
+    background-color: rgb(247, 144, 30);
+    border-radius: 1in;
+}
+.A{
+    text-decoration: none;
+}
+.menu{
+    float: left;
+    width: 12.5%;
+    height: 0.5in;
+    color: white;
+    font-size: 0.8em;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    line-height: 0.5in;
+    transition-duration: 0.5s;
+}
+.menu:hover{
+    background-color: white;
+    color: rgb(247, 144, 30);
+}
