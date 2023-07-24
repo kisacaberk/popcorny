@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AnaComponent } from './ana.component';
+import { UrunEkleComponent } from './urun-ekle.component';
 
-describe('AnaComponent', () => {
-  let component: AnaComponent;
-  let fixture: ComponentFixture<AnaComponent>;
+describe('UrunEkleComponent', () => {
+  let component: UrunEkleComponent;
+  let fixture: ComponentFixture<UrunEkleComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [AnaComponent]
+      declarations: [UrunEkleComponent]
     });
-    fixture = TestBed.createComponent(AnaComponent);
+    fixture = TestBed.createComponent(UrunEkleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,0 +1,10 @@
+
+<div class="Menu-Alani">
+    <!--Menü alanı-->
+    <a *ngFor="let kategoriler of categories" class="A" routerLink="/category/{{kategoriler.id}}">
+        <div class="menu">
+            {{kategoriler.name}}
+        </div>
+    </a>
+    
+</div>

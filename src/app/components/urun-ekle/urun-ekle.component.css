@@ -1,0 +1,509 @@
+
+
+.Baslik {
+    background-color:  rgb(247, 144, 30);
+    height: 1.5in;
+    width: 100%;
+    border-radius: 50px;
+
+}
+
+.Logo-Alani {
+    float: left;
+    height: 1.5in;
+    width: 25%;
+
+}
+.Logo {
+   margin-left: 30%;
+   
+
+}
+.Baslik-Alani{
+    float: left;
+    width: 50%;
+    height: 1.5in;
+}
+.Baslik-{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 30%;
+    margin-top: 2%;
+    color: white;
+    font-size: 1in;
+}
+
+.emote{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    float: left;
+    width: 25%;
+    height: 1.5in;
+}
+.emotealan{
+    transition: ease 500ms;
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    top: 6.3%;
+    margin-left: 8.7%;
+}
+.aaa{
+    height: 80px;
+    position: absolute;
+}
+.altmenu {
+    text-align: center;
+    border-radius: 25px ;
+    top: 60px;
+    left: -38px;
+    background-color: rgb(172, 41, 35);
+    position: relative;
+    width: 150px;
+    transition: ease 500ms;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.emotealan:hover  .altmenu{
+    
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+.altmenu li a {
+    
+    color: rgb(247, 144, 30);
+}
+.altmenu li:hover a{
+    
+        color: rgb(172, 41, 35);
+    
+}
+.altmenu li{
+    border-radius: 35px;
+    transition: ease 700ms;
+}
+.altmenu li:hover{
+    
+    transition: ease 700ms;
+ background-color: rgb(247, 144, 30);  
+}
+
+
+.altmenu a {
+    
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 45px;
+    
+    text-decoration: none;
+    
+}
+
+.profil {
+    
+    opacity: 1;
+    transition: ease 500ms;
+
+}
+.profil:hover {
+    opacity: 0.8;
+}
+.main {
+    background-color:  rgb(247, 144, 30);
+    height: 7.5in;
+    width: 70%;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+.user-icon {
+    float: left;
+    height: 3.6in;
+    width: 40%;
+
+}
+
+.user-icon-png {
+
+margin-left: 12.5%;
+margin-top: 7.5%;
+}
+
+.Bilgiler {
+   margin: auto;
+    height: 347px;
+    width: 60%;
+    font-family: 'Architects Daughter', cursive;
+
+}
+.kullanici-adi{
+    height: 100px;
+    font-size: 500%;
+  
+    
+}
+
+.kullanici-ad{
+    text-align: center;
+    color: rgb(172, 41, 35);
+}
+
+.profil-sil{
+    
+    position: absolute;
+    
+   padding-bottom: 0.7%;
+    margin-left: 31.1%;
+    transform: translate(-00%, 0%);
+    -ms-transform: translate(-0%, -1000%);
+    text-align: center;
+    
+    opacity: 1;
+    
+    background-color: rgb(247, 144, 30);
+    border: 2px solid rgb(172, 41, 35);
+    border-radius: 255px;
+    width:105px;
+    height:15px;
+    line-height:25px;
+    font-size:15px;
+    color:white;
+    transition: .5s ease;
+    font-weight:bold;
+    text-shadow:#2d4251 5px 5px 5px;
+}
+.profil-sil:hover{
+    background-color: rgb(134, 11, 11);
+    border: 2px solid rgb(250, 167, 73);
+    text-shadow: rgb(134, 11, 11) 5px 5px 5px;}
+    .sil{
+        
+        color: rgb(27, 6, 6);
+        transform: translate(-900%, -15,40%);
+        -ms-transform: translate(-900%, -900%);
+    }
+    .bombis{
+        margin-top: 10%;
+       
+        text-decoration: none;
+    color: rgb(134, 11, 11);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Architects Daughter', cursive;
+    }
+.kullanici-onay-icon{
+    opacity: 0.6;
+    transition: ease 500ms;
+    margin-left: 27%;  
+}
+.kullanici-onay-icon:hover{
+    opacity: 1;
+}
+.kullanici-onay-icony{
+    opacity: 0.6;
+    transition: ease 500ms;
+    margin-left: 17.2%;  
+}
+.kullanici-onay-icony:hover{
+    opacity: 1;
+}
+.kullanici-onay-iconx{
+    opacity: 0.6;
+    transition: ease 500ms;
+    
+}
+.kullanici-onay-iconx:hover{
+    opacity: 1;
+}
+.ana-bilgiler{
+    margin: auto;
+    padding-left: 80px;
+    font-size: 20px;
+    color: white;
+}
+
+.form-control{
+    border: 5px solid rgb(59, 39, 16);
+    border-radius: 25px 25px;
+    color: rgb(247, 144, 30);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    background-color: rgb(172, 41, 35);
+    margin-top: 1%;
+    line-height: 25px;
+    height: 40px;
+    width: 76%;
+    position: relative;
+    top: 27%;
+      
+}
+
+.izlemefavori{
+    float: left;
+    height: 1.6in;
+    width: 100%;
+    height: 374.4px;
+    
+}
+.cizgi{
+    width: 95%;
+    height: 0.05in;
+    background-color: rgb(134, 11, 11);
+    border-radius: 50px;
+    margin-left: 2.5%;
+    margin-top: 30px;
+}
+.onay-ico{
+    height: 0.6in;
+    width: 20%;
+    border-radius: 50px;
+    background-color: rgb(134, 11, 11);
+    opacity: 1;
+    transition: 500ms ease;
+    text-decoration: none;
+    margin-left: 40%;
+    margin-top: 0.1in;
+}
+.onay-ico:hover {
+background-color: rgb(175, 16, 8);
+opacity: 0.9;
+text-decoration: none;
+}
+
+
+
+.izleme {
+    margin-top: 53.5px;
+width: 45%;
+height: 2.5in;
+float: left;
+background-color: rgb(172, 41, 35);
+border-radius: 50px;
+margin-left: 3%;
+}
+.izleme-{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 36%;
+    margin-top: 2%;
+    color: white;
+    font-size: 0.3in;
+    height: 0.25in;
+}
+
+.favori{
+    margin-top: 53.5px;
+    margin-left: 4%;
+    float: left;
+width: 45%;
+background-color: rgb(22, 41, 35);
+border-radius: 50px;
+height: 2.5in;
+}
+.favori-{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 36%;
+    margin-top: 2%;
+    color: white;
+    font-size: 0.3in;
+    height: 0.25in;
+}
+
+.izlemefilmbox{
+float: left;
+height: 1.6in;
+width: 100%;
+
+}
+.izlemefilmbox1{
+    float: left;
+    height: 1.6in;
+    width: 30%;
+    padding-left: 4.2%;
+}
+
+.izleme1{
+    transition-duration: 0.5s;
+    opacity: 1;
+height: 1.8in;
+margin-left: 6%;
+background-color: white;
+backface-visibility: hidden;
+transition: .5s ease;
+text-decoration: none;
+}
+.izleme1:hover {
+    opacity: 0.5;
+}
+
+.middle {
+    
+    opacity: 0.1;
+    position: absolute;
+    height: 1.1in;
+    margin-left: 4.4%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: .9s ease;
+  }
+  .izlemefilmbox1:hover .middle{
+      opacity: 1;
+      
+  }
+  .izlemefilmbox1:hover .text{
+    font-size: 11.8px;
+    
+}
+  .izleme1:hover {
+    opacity: 0.5;
+}
+  
+.text {
+    
+    background-color: rgb(247, 144, 30);
+    color: white;
+    font-size: 11px;
+    padding: 10px 10px;
+    transition: .9s ease;
+  }
+
+.izleme2{
+height: 1.8in;
+margin-left: 6%;
+}
+
+.izlemefilmbox2{
+    float: left;
+    height: 1.6in;
+    width: 30%;
+    padding-left: 4.2%;
+}
+
+.izleme2{
+    transition-duration: 0.5s;
+    opacity: 1;
+height: 1.8in;
+margin-left: 6%;
+background-color: white;
+backface-visibility: hidden;
+transition: .5s ease;
+
+}
+.izleme2:hover {
+    opacity: 0.5;
+}
+
+.middle2 {
+    
+    opacity: 0;
+    position: absolute;
+    height: 1.1in;
+    margin-left: 4.4%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: .9s ease;
+  }
+  .izlemefilmbox2:hover .middle2{
+      opacity: 1;
+  }
+  .izlemefilmbox2:hover .text{
+    font-size: 12px;
+    
+}
+  .izleme2:hover {
+    opacity: 0.5;
+}
+
+.moreizleme{
+    
+    float: left;
+    height: 1.6in;
+    width: 20%;
+    padding-left: 4.2%;
+}
+
+.moreizlemechild{
+    opacity: 1;
+    margin-top: 25%;
+    background-color: rgb(247, 144, 30);
+    border: 8px solid rgba(255, 255, 255, .5);
+    border-radius: 255px;
+    width:90px;
+    height:90px;
+    line-height:20px;
+    font-size:10px;
+    color:white;
+    transition: .5s ease;
+    font-weight:bold;
+    text-shadow:#2d4251 5px 5px 5px;
+}
+.moreizlemechild:hover{
+    background-color: rgb(172, 41, 35);
+    text-shadow: rgb(134, 11, 11) 5px 5px 5px;
+}
+.noktalar{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(172, 41, 35);
+    padding: 17px 25px;
+    font-size: 65px;
+    transition: .2s ease;
+}
+.moreizlemechild:hover .noktalar{
+    color: rgb(247, 144, 30);
+}
+.favorifilmbox{
+    height: 1.6in;
+    width: 100%;
+    float: left;
+}
+
+
+
+.Site-Bottom{
+    width: 100%;
+    height: 0.5in;
+    background-color: rgb(247, 144, 30);
+    border-radius: 20px;
+    margin-top: 2%;
+}
+.Iletişim-Text{
+    width: 10%;
+    float: left;
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    line-height: 0.5in;
+    margin-left: 18%;
+}
+.Icons{
+    width: 25%;
+    height: 0.5in;
+    float: left;
+}
+
+.Icon{
+    float: left;
+    margin-right: 24px;
+    margin-top: 12px;
+}  
+.Phone{
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    line-height: 0.5in;
+}
+.Iletişim-Text1{
+    width: 10%;
+    float: left;
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    line-height: 0.5in;
+    margin-left: 20%;
+}

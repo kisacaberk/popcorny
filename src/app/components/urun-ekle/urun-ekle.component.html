@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+   
+    
+  </head>
+
+  <body>
+    <div class="main">
+      <div>
+        <div class="Bilgiler">
+          <form>
+            <div class="ana-bilgiler">
+              <label for="ad">Ad:</label>
+              <div>
+                
+                <input type="text" name="description" id="description" formControlName="description" class="form-control" placeholder="Açıklama">
+              </div><label for="ad">Puan</label>
+            <div>
+                <input type="text" name="price" id="price" formControlName="price" class="form-control" placeholder="Puan girmek zorunludur">
+             </div><label for="ad">Resim adresi</label> <div>
+                <input type="text" name="imageUrl" id="imageUrl" formControlName="imageUrl" class="form-control" placeholder="Resim girmek zorunludur">
+            </div><label for="ad">Kategori/Tür:</label>
+            <div class="form-group">
+                <select class="form-control" form formControlName="categoryId" required id="categoryId" name="categoryId">
+
+                    <option value="aksiyon">aksiyon</option>
+                    <option value="maksiyon">maksiyon</option>
+                    <option value="aksiyon">caksiyon</option>   
+                    </select>
+                    <button type="submit" class="onay-ico" >Ürünü Hoplat</button>
+                  </div>
+              
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<app-kategoriler></app-kategoriler>
+<app-arama-kutusu></app-arama-kutusu>
+<div class="favorieklenenfilmler">
+  <div class="favorieklenenfilmlerarkaplan">
+    <div class="filmler-arkaplan">
+
+
+
+        
+      <div *ngFor="let urunler of products" class="film-arkaplan1">
+        <a href="">
+          <img
+            class="filmx1"
+            src="{{urunler.imageUrl}}"
+            alt=""
+          />
+          <a href="">
+            <div class="orta">
+              <a href="">
+                <div class="kekxt">
+                  {{urunler.name}} <br />
+                  {{urunler.puan}}
+                </div>
+              </a>
+            </div>
+          </a>
+        </a>
+      </div>
+      
+
+
+      <div class="bosluk"></div>
+    </div>
+    
+  </div>
+</div>
