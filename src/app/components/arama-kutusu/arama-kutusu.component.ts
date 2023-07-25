@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./arama-kutusu.component.css']
 })
 export class AramaKutusuComponent {
+  
 
-}
+} 

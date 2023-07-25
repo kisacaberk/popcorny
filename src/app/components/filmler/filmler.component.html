@@ -1,36 +1,48 @@
 <app-kategoriler></app-kategoriler>
-<app-arama-kutusu></app-arama-kutusu>
+
+<div id="cover">
+ 
+    <div class="tb">
+      <div class="td">
+        <input
+        class="form-control"
+        id="filterText"
+        placeholder="ürün ara"
+        [(ngModel)]="filterText"
+        />
+      </div>
+      <div class="td" id="s-cover">
+        <button type="submit">
+          <div id="s-circle"></div>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  
+</div>
 <div class="favorieklenenfilmler">
   <div class="favorieklenenfilmlerarkaplan">
     <div class="filmler-arkaplan">
-
-
-
-        
-      <div *ngFor="let urunler of products" class="film-arkaplan1">
+      <div
+        *ngFor="let urunler of products | productFilter : filterText"
+        class="film-arkaplan1"
+      >
         <a href="">
-          <img
-            class="filmx1"
-            src="{{urunler.imageUrl}}"
-            alt=""
-          />
+          <img class="filmx1" src="{{ urunler.imageUrl }}" alt="" />
           <a href="">
             <div class="orta">
               <a href="">
                 <div class="kekxt">
-                  {{urunler.name}} <br />
-                  {{urunler.puan}}
+                  {{ urunler.name }} <br />
+                  {{ urunler.puan }}
                 </div>
               </a>
             </div>
           </a>
         </a>
       </div>
-      
-
 
       <div class="bosluk"></div>
     </div>
-    
   </div>
 </div>

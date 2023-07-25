@@ -13,6 +13,7 @@ export class FilmlerComponent implements OnInit {
   constructor(private productService:ProductService, private activatedRoute:ActivatedRoute) { }
   title = "Ürün Listesi"
   filterText = ""
+  
   products: Product[];
  
   ngOnInit() {

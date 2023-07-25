@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -9,7 +9,8 @@ import { AramaKutusuComponent } from './components/arama-kutusu/arama-kutusu.com
 import { FilmlerComponent } from './components/filmler/filmler.component';
 import { UrunEkleComponent } from './components/urun-ekle/urun-ekle.component';
 import { KategorilerComponent } from './components/kategoriler/kategoriler.component';
-import { HomeviewComponent } from './pages/homeview/homeview.component';
+
+import { ProductFilterPipe } from './services/product-filter.pipe';
 
 
 @NgModule({
@@ -20,12 +21,15 @@ import { HomeviewComponent } from './pages/homeview/homeview.component';
     AramaKutusuComponent,
     FilmlerComponent,
     UrunEkleComponent,
-    HomeviewComponent,
+
+    ProductFilterPipe,
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule  
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
